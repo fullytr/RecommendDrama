@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>海外ドラマレコメンド</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+     <!-- ヘッダー -->
+     <header class="header">
+    <h1>海外ドラマレコメンド</h1>
+</header>
+ 
+    
+    <label for="genre">ジャンル:</label>
+    <select id="genre">
+        <option value="">すべて</option>
+        <option value="アクション">アクション</option>
+        <option value="ファンタジー">ファンタジー</option>
+        <option value="コメディ">コメディ</option>
+        <option value="歴史">歴史</option>
+        <option value="サスペンス">サスペンス</option>
+        <option value="SF">SF</option>
+    </select>
+
+    <label for="episodes">エピソード数：</label>
+    <select id="episodes">
+        <option value="">すべて</option>
+        <option value="10未満">0~49エピソード</option>
+        <option value="10-20">50〜99エピソード</option>
+        <option value="20-50">100〜150エピソード</option>
+        <option value="50以上">150エピソード以上</option>
+    </select>
+
+    <label for="country">国：</label>
+     <select id="country">
+        <option value="">すべて</option>
+         <option value="アメリカ">アメリカ</option>
+         <option value="イギリス">イギリス</option>
+         <option value="韓国">韓国</option>
+         <option value="日本">日本</option>
+        </select>
+
+    
+    <label for="difficulty">難易度:</label>
+    <select id="difficulty">
+        <option value="">すべて</option>
+        <option value="簡単">簡単</option>
+        <option value="普通">普通</option>
+        <option value="難しい">難しい</option>
+    </select>
+
+    <label for="platforms">視聴プラットフォーム：</label>
+    <select id="platforms">
+        <option value="">すべて</option>
+        <option value="Netflix">Netflix</option>
+        <option value="Hulu">Hulu</option>
+        <option value="Amazon Prime Video">Amazon Prime Video</option>
+        <option value="Disney+">Disney+</option>
+        <option value="HBO Max">HBO Max</option>
+        <option value="Apple TV+">Apple TV+</option>
+    </select>
+
+    
+    <button onclick="recommend()">レコメンドする</button>
+    <button onclick="resetForm()" class="button-reset">リセット</button>
+
+    <div id="recommendations"></div>
+</body>
+</html>
+
+
