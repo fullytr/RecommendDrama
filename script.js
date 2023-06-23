@@ -1,27 +1,27 @@
 // 海外ドラマのデータ
 var dramas = [
-    { name: "ブレイキング・バッド", genre: "アクション", episodes: 62, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
-    { name: "ゲーム・オブ・スローンズ", genre: "ファンタジー", episodes: 73, country: "アメリカ", difficulty: "難しい", platforms: ["Hulu", "HBO Max"] },
-    { name: "フレンズ", genre: "コメディ", episodes: 236, country: "アメリカ", difficulty: "簡単", platforms: ["Netflix", "HBO Max"] },
-    { name: "ストレンジャー・シングス", genre: "ファンタジー", episodes: 34, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
+    { name: "ブレイキング・バッド", genre: "アクション", episodes: 62, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"],trailer:"https://jobs.lever.co/tx-inc.com/e85d4193-f87a-4731-9f66-f0255aa43f06", imageURL: "b.jpg" },
+    { name: "ゲーム・オブ・スローンズ", genre: "ファンタジー", episodes: 73, country: "アメリカ", difficulty: "難しい", platforms: ["Hulu", "HBO Max"], trailerURL: "", imageURL: "b.jpg"},
+    { name: "フレンズ", genre: "コメディ", episodes: 236, country: "アメリカ", difficulty: "簡単", platforms: ["Netflix", "HBO Max"], trailerURL: "b.jpg" },
+    { name: "ストレンジャー・シングス", genre: "ファンタジー", episodes: 34, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"], trailerURL: "b.jpg" },
     { name: "ザ・クラウン", genre: "歴史", episodes: 40, country: "イギリス", difficulty: "普通", platforms: ["Netflix"] },
-    { name: "ザ・オフィス", genre: "コメディ", episodes: 201, country: "アメリカ", difficulty: "普通", platforms: ["Netflix", "Amazon Prime Video"] },
-    { name: "シャーロック", genre: "サスペンス", episodes: 13, country: "イギリス", difficulty: "普通", platforms: ["Netflix", "Amazon Prime Video"] },
-    { name: "ブラックミラー", genre: "SF", episodes: 22, country: "イギリス", difficulty: "難しい", platforms: ["Netflix"] },
-    { name: "ナルコス", genre: "サスペンス", episodes: 30, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
-    { name: "ビッグバン★セオリー/ギークなボクらの恋愛法則", genre: "コメディ", episodes: 279, country: "アメリカ", difficulty: "簡単", platforms: ["Netflix", "Amazon Prime Video", "HBO Max"] },
+    { name: "ザ・オフィス", genre: "コメディ", episodes: 201, country: "アメリカ", difficulty: "普通", platforms: ["Netflix", "Amazon Prime Video"] , trailerURL: "b.jpg"},
+    { name: "シャーロック", genre: "サスペンス", episodes: 13, country: "イギリス", difficulty: "普通", platforms: ["Netflix", "Amazon Prime Video"], trailerURL: "" },
+    { name: "ブラックミラー", genre: "SF", episodes: 22, country: "イギリス", difficulty: "難しい", platforms: ["Netflix"], trailerURL: "" },
+    { name: "ナルコス", genre: "サスペンス", episodes: 30, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] , trailerURL: ""},
+    { name: "ビッグバン★セオリー/ギークなボクらの恋愛法則", genre: "コメディ", episodes: 279, country: "アメリカ", difficulty: "簡単", platforms: ["Netflix", "Amazon Prime Video", "HBO Max"], trailerURL: "" },
      
 // 新しいドラマデータ
   //{ name: "ストランジャー・シングス2", genre: "ファンタジー", episodes: 56, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
-  { name: "ウェストワールド", genre: "SF", episodes: 28, country: "アメリカ", difficulty: "難しい", platforms: ["HBO Max"] },
-  { name: "プリーズ・ライク・ミー", genre: "コメディ", episodes: 36, country: "イギリス", difficulty: "簡単", platforms: ["Netflix"] },
-  { name: "デクスター", genre: "サスペンス", episodes: 96, country: "アメリカ", difficulty: "難しい", platforms: ["Amazon Prime Video"] },
-  //{ name: "ブレイキング・バッド・ムービー", genre: "アクション", episodes: 1, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
-  { name: "オレンジ・イズ・ニュー・ブラック", genre: "ドラマ", episodes: 91, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
-  //{ name: "ストレンジャー・シングス3", genre: "ファンタジー", episodes: 64, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
-  { name: "ピーキー・ブラインダーズ", genre: "クライム", episodes: 30, country: "イギリス", difficulty: "簡単", platforms: ["Netflix"] },
-  { name: "ホームランド", genre: "スリラー", episodes: 96, country: "アメリカ", difficulty: "難しい", platforms: ["Hulu"] },
-  { name: "ハウス・オブ・カード", genre: "ドラマ", episodes: 73, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
+  { name: "ウェストワールド", genre: "SF", episodes: 28, country: "アメリカ", difficulty: "難しい", platforms: ["HBO Max"], trailerURL: "" },
+  { name: "プリーズ・ライク・ミー", genre: "コメディ", episodes: 36, country: "イギリス", difficulty: "簡単", platforms: ["Netflix"], trailerURL: "" },
+  { name: "デクスター", genre: "サスペンス", episodes: 96, country: "アメリカ", difficulty: "難しい", platforms: ["Amazon Prime Video"], trailerURL: "" },
+  //{ name: "ブレイキング・バッド・ムービー", genre: "アクション", episodes: 1, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"], trailerURL: "" },
+  { name: "オレンジ・イズ・ニュー・ブラック", genre: "ドラマ", episodes: 91, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"], trailerURL: "" },
+  //{ name: "ストレンジャー・シングス3", genre: "ファンタジー", episodes: 64, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] , trailerURL: ""},
+  { name: "ピーキー・ブラインダーズ", genre: "クライム", episodes: 30, country: "イギリス", difficulty: "簡単", platforms: ["Netflix"], trailerURL: "" },
+  { name: "ホームランド", genre: "スリラー", episodes: 96, country: "アメリカ", difficulty: "難しい", platforms: ["Hulu"], trailerURL: ""},
+  { name: "ハウス・オブ・カード", genre: "ドラマ", episodes: 73, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] , trailerURL: ""},
   
 // 新しいドラマデータ
  // { name: "ストランジャー・シングス2", genre: "ファンタジー", episodes: 56, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"] },
@@ -109,7 +109,7 @@ function recommend() {
     var episodes = document.getElementById("episodes").value;
     var country = document.getElementById("country").value;
     var platforms = document.getElementById("platforms").value;
-    
+
     // レコメンド対象のドラマを絞り込む
     var filteredDramas = dramas.filter(function(drama) {
         if (genre && genre !== drama.genre) {
@@ -129,24 +129,10 @@ function recommend() {
         }
         return true;
     });
-    
-    // レコメンド結果を表示
-    var recommendationsDiv = document.getElementById("recommendations");
-    recommendationsDiv.innerHTML = "";
-    
-    if (filteredDramas.length > 0) {
-        var ul = document.createElement("ul");
-        filteredDramas.forEach(function(drama) {
-            var li = document.createElement("li");
-            li.textContent = drama.name + " (" + drama.genre + ", " + drama.country + ")";
-            ul.appendChild(li);
-        });
-        recommendationsDiv.appendChild(ul);
-    } else {
-        recommendationsDiv.textContent = "該当するドラマはありません。";
-    }
-}
 
+    // レコメンド結果を表示
+    displayRecommendations(filteredDramas);
+}
 
 // エピソード数の範囲を取得するヘルパー関数
 function getEpisodeRange(episodes) {
@@ -160,7 +146,68 @@ function getEpisodeRange(episodes) {
         return "50以上";
     }
 }
-//リセット機能
+
+// レコメンド結果を表示する関数
+// レコメンド結果を表示する関数
+function displayRecommendations(filteredDramas) {
+    var recommendationsDiv = document.getElementById("recommendations");
+    recommendationsDiv.innerHTML = "";
+
+    if (filteredDramas.length > 0) {
+        var gridContainer = document.createElement("div");
+        gridContainer.classList.add("grid-container");
+
+        filteredDramas.forEach(function(drama) {
+            var div = document.createElement("div");
+            div.classList.add("drama-item");
+
+            var image = document.createElement("img");
+            image.src = drama.imageURL;
+            image.alt = drama.name;
+            div.appendChild(image);
+
+            var infoContainer = document.createElement("div");
+            infoContainer.classList.add("info-container");
+
+            var title = document.createElement("h3");
+            title.textContent = drama.name;
+            infoContainer.appendChild(title);
+
+            var genre = document.createElement("p");
+            genre.textContent = "ジャンル: " + drama.genre;
+            infoContainer.appendChild(genre);
+
+            var episodes = document.createElement("p");
+            episodes.textContent = "エピソード数: " + drama.episodes;
+            infoContainer.appendChild(episodes);
+
+            var country = document.createElement("p");
+            country.textContent = "制作国: " + drama.country;
+            infoContainer.appendChild(country);
+
+            var difficulty = document.createElement("p");
+            difficulty.textContent = "難易度: " + drama.difficulty;
+            infoContainer.appendChild(difficulty);
+
+            var platforms = document.createElement("p");
+            platforms.textContent = "視聴プラットフォーム: " + drama.platforms.join(", ");
+            infoContainer.appendChild(platforms);
+
+            var trailer = document.createElement("p");
+            trailer.textContent = "予告編: " + drama.trailerURL;
+            infoContainer.appendChild(trailer);
+
+            div.appendChild(infoContainer);
+            gridContainer.appendChild(div);
+        });
+
+        recommendationsDiv.appendChild(gridContainer);
+    } else {
+        recommendationsDiv.textContent = "該当するドラマはありません。";
+    }
+}
+
+// リセット機能
 function resetForm() {
     document.getElementById("genre").selectedIndex = 0;
     document.getElementById("episodes").selectedIndex = 0;
@@ -169,25 +216,3 @@ function resetForm() {
     document.getElementById("platforms").selectedIndex = 0;
     recommend();
 }
-
-// 名前プロパティを基準に重複を削除する関数
-function removeDuplicates(dramas) {
-    var uniqueDramas = [];
-    var names = [];
-
-    for (var i = 0; i < dramas.length; i++) {
-        var drama = dramas[i];
-        if (!names.includes(drama.name)) {
-            uniqueDramas.push(drama);
-            names.push(drama.name);
-        }
-    }
-
-    return uniqueDramas;
-}
-
-// dramas配列から重複を削除する
-var uniqueDramas = removeDuplicates(dramas);
-
-// ユニークなドラマを出力する
-console.log(uniqueDramas);

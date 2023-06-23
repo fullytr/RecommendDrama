@@ -4,6 +4,9 @@ body {
     margin: 0;
     padding: 0;
   }
+  /* フォントファミリーはArialとフォールバックのsans-serifが指定
+背景色は#f5f5f5（ライトグレー）です。
+余白（マージンとパディング）は0です。 */
   
   .header h1 {
     color: black;
@@ -13,8 +16,14 @@ body {
     text-align: center;
     margin: 0;
     padding: 20px;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    text-shadow: 2px 2px 4px rgba(163, 38, 132, 0.3);
 }
+/* フォントサイズは36pxです。
+フォントウェイトはボールド（太字）です。
+テキストは中央寄せに配置されています。
+マージンとパディングは20pxです。
+テキストには2pxのぼかし（シャドウ）がかかっています。 */
+
   .header {
     background-image: url('header-background.jpg');
     background-size: cover;
@@ -23,20 +32,31 @@ body {
     padding: 20px;
     color: white;
   }
+  /* 背景画像が指定されています（header-background.jpg）。
+背景画像のサイズはカバー（画面全体を覆うように拡大縮小）です。
+背景画像の位置は中央に配置されています。
+テキストは中央寄せに配置されています。
+パディングは20pxです。
+テキストの色は白です。 */
   
   h1 {
     font-size: 32px;
     margin: 0;
   }
+  /* フォントサイズは32pxです。
+マージンは0です。 */
   
   form {
     margin-bottom: 20px;
   }
+  /* 下方にマージンが20pxあります。 */
   
   label {
     font-size: 18px;
     font-weight: bold;
   }
+  /* フォントサイズは18pxです。
+  フォントウェイトはボールド（太字）です。 */
   
   select, button {
     font-size: 16px;
@@ -45,41 +65,47 @@ body {
     border-radius: 4px;
     margin-right: 10px;
   }
-  
-  button {
+  /* フォントサイズは16pxです。
+パディングは10pxです。
+境界線（ボーダー）は1pxの実線で、色は#ccc（グレー）です。
+角丸の半径は4pxです。
+select要素とbutton要素の間に右側に10pxのマージンがあります。 */
+
+ button {
     background-color: #333;
     color: white;
     cursor: pointer;
   }
+  /* button要素の背景色は#333（濃いグレー）で、テキストの色は白です。 */
   
   button:hover {
     background-color: #555;
   }
-  
+  /* マウスオーバー時の背景色は#555（より濃いグレー）です。 */
+
   #recommendations {
     margin-top: 20px;
     text-align: center;
   }
+  /* 上方にマージンが20pxあります。
+  テキストは中央寄せに配置されています。 */
+
   ul {
     list-style-type: none;
     padding: 0;
     display: inline-block;
   }
-  
   li {
     margin-bottom: 20px;
     font-size: 20px;
     text-align: left;
   }
-  
-  /*ul {
-    list-style-type: none;
-    padding: 0;
-  }
-  
-  li {
-    margin-bottom: 10px;
-  }*/
+  /* リストスタイルタイプ（マーカー）は無し（リストがドットや番号で示されない）です。
+パディングは0です。
+ul要素とli要素はインラインブロックとして表示されます。
+li要素の下方にマージンが20pxあります。
+フォントサイズは20pxです。
+テキストは左寄せに配置されています。 */
   
   /*ボタンのリセット*/
   .button-reset {
@@ -94,9 +120,47 @@ body {
     cursor: pointer;
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
+/* 背景色は#ff9999（ライトレッド）です。
+テキストの色は黒です。
+フォントファミリーはArialとフォールバックのsans-serifです。
+フォントサイズは16pxです。
+フォントウェイトはボールド（太字）です。
+境界線（ボーダー）は設定されていません。
+パディングは上下に10px、左右に20pxです。
+角丸の半径は5pxです。
+カーソルはポインターになります。
+ボタンには2pxのぼかし（シャドウ）がかかっています。 */
 
 .button-reset:hover {
     background-color: #ff6666;
 }
+/* マウスオーバー時の背景色は#ff6666（濃いライトレッド）です。 */
 
-  
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+/* グリッドコンテナとして表示されます。
+列の数は3つで、各列の幅は1fr（均等な割合）です。
+各要素間のギャップは20pxです。 */
+
+.drama-item {
+  border: 1px solid #ccc;
+  padding: 20px;
+  text-align: center;
+}
+/* 境界線（ボーダー）は1pxの実線で、色は#ccc（グレー）です。
+パディングは20pxです。
+テキストは中央寄せに配置されています。 */
+
+.drama-item img {
+  width: 50%;
+  height: auto;
+}
+/* 画像の幅は50%です。
+高さは自動的に調整されます。
+これらのスタイル定義により、HTML要素に適用される外観とスタイルが指定されます。 */
+
+
+
