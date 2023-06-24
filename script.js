@@ -1,6 +1,6 @@
 // 海外ドラマのデータ
 var dramas = [
-    { name: "ブレイキング・バッド", genre: "アクション", episodes: 62, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"],trailer:"https://jobs.lever.co/tx-inc.com/e85d4193-f87a-4731-9f66-f0255aa43f06", imageURL: "ブレイキング・バッド.jpeg" },
+    { name: "ブレイキング・バッド", genre: "アクション", episodes: 62, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"],trailerURL:"https://www.youtube.com/watch?v=gIAca7Ycg0w", imageURL: "ブレイキング・バッド.jpeg" },
     { name: "ゲーム・オブ・スローンズ", genre: "ファンタジー", episodes: 73, country: "アメリカ", difficulty: "難しい", platforms: ["Hulu", "HBO Max"], trailerURL: "", imageURL: "ゲーム・オブ・スローンズ.jpeg"},
     { name: "フレンズ", genre: "コメディ", episodes: 236, country: "アメリカ", difficulty: "簡単", platforms: ["Netflix", "HBO Max"], trailerURL: "b.jpg", imageURL: "フレンズ.jpg" },
     { name: "ストレンジャー・シングス", genre: "ファンタジー", episodes: 34, country: "アメリカ", difficulty: "普通", platforms: ["Netflix"], trailerURL: "b.jpg", imageURL: "ストレンジャー・シングス.jpg" },
